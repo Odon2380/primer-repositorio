@@ -1,0 +1,30 @@
+h3{
+    color:blue
+}
+
+/* Estructura de css
+Selector{
+    propiedad: valor;
+    propiedad2: valor2;
+}
+*/
+
+/*Selector Universal/Global */
+*{
+    margin: 0;
+}
+
+/*Selector de Tipo/Etiqueta */
+p{
+    background-color:brown;
+}
+
+/*Selector de Clase */
+.nombre-de-clase{
+    color: red;
+}
+
+/*Selector de ID */
+#nombre-de-id{
+    color: green;
+}
