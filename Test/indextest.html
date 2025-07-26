@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="newstyle.css">
 </head>
 <body>
-    <header>
-        <img src="./blank-profile-picture-973460_1280.webp" alt="iamge de perfil">
-        <h1>Hola, soy Odón</h1>
-        <p>Desarrollador web</p>
-        <p>Apasionado por la tecnología y el desarrollo de software</p>
+    <header id="inicio" class="header">
+        <div class="container">
+            <nav>
+               <a href="#inicio">Inicio</a>
+               <a href="#sobre mi">Sobre mí</a>
+               <a href="#habilidades">Habilidades</a>
+               <a href="#proyectos">Proyectos</a>
+               <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
+        <section class="container" id="perfil">
+            <img src="./img/picture-bfc2d015b26e120b596cb793a97f665b_67dee2c575a79.jpg" alt="iamge de perfil" class="imagen_perfil">
+              <div>
+               <h1 id="nombre">Odon Limonta Reyes</h1>
+               <p class="ocupacion">Desarrollador web</p>
+               <p class="hobbies">Apasionado por la tecnología y el desarrollo de software</p>
+            </div>
+        </section>
+
+        <section id="sobre mi" class="container">
             <h2>Sobre mi</h2>
-            <p class="parrafo">Desarrollador Web Junior graduado del programa Jóvenes Creativos,
+            <p>Desarrollador Web Junior graduado del programa Jóvenes Creativos,
                con formación sólida en HTML, CSS, JavaScript, Git y GitHub. Capaz de trabajar en equipo, 
                con buena disposición para la resolución de problemas y orientación a resultados. 
                Manejo fluido de herramientas como VS Code, GitHub Desktop y Trae, 
@@ -26,24 +40,25 @@
             </p>
         </section>
 
-        <section>
+        <section id="habilidades" class="container">
             <h2>Habilidades</h2>
             <ul>
-                <img src="./ea50fd5ac033ccb1ab19a9aa4f1135464bbc1399.png" alt="Html logo">
+                <img src="./img/ea50fd5ac033ccb1ab19a9aa4f1135464bbc1399.png" alt="Html logo" class="img">
                 <li>HTML</li>
-                <img src="./logotipo_css-min.png" alt="Css logo">
+                <img src="./img/logotipo_css-min.png" alt="Css logo" class="img">
                 <li>CSS</li>
-                <img src="./images.png" alt="JavaScript logo">
+                <img src="./img/images.png" alt="JavaScript logo" class="img">
                 <li>JavaScript</li>
-                <img src="./git_and_github_logo.png" alt="Git logo">
+                <img src="./img/git_and_github_logo.png" alt="Git logo" class="img">
                 <li>Git y GitHub</li>
-                <img src="./Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code logo">
+                <img src="./img/Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code logo" class="img">
                 <li>VS Code</li>
-                <img src="./J5ry86yI_400x400.jpg" alt="GitHub Desktop logo">
+                <img src="./img/J5ry86yI_400x400.jpg" alt="GitHub Desktop logo" class="img">
                 <li>Trae</li>
+            </ul>
         </section>
 
-        <section>
+        <section id="proyectos" class="container">
             <h2>Proyectos</h2>
             <article>
                 <h3>Mi portafolio</h3>
@@ -58,7 +73,7 @@
             </article>
         </section>
 
-        <section>
+        <section id="contacto" class="container">
             <h2>Contacto</h2>
             <form>
                 <fieldset>
